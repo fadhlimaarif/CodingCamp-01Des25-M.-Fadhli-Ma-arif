@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nephthys Security - Keamanan Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <h1>Nephthys Security</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+                <li><a href="#message">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero-section">
+            <h2 id="welcome-speech" class="welcome-text">Loading Welcome Message...</h2> 
+
+            <div class="photo-banner">
+                <h3>Melindungi Dunia Digital Anda.</h3>
+            </div>
+
+            <div class="about-us">
+                <h3>Tentang Nephthys Security</h3>
+                <p>
+                    Defiant Security adalah perusahaan terkemuka dalam penyediaan solusi keamanan siber yang komprehensif. Kami berdedikasi untuk melindungi aset digital klien kami dari ancaman siber yang terus berevolusi, mulai dari serangan *phishing* hingga pelanggaran data tingkat lanjut. Tim ahli kami menyediakan layanan konsultasi, pengujian penetrasi, dan sistem pertahanan 24/7.
+                </p>
+            </div>
+            
+            <div class="vision-mission">
+                <div class="vision">
+                    <h4>Visi</h4>
+                    <p>Menjadi benteng pertahanan digital terdepan di Asia Tenggara, memastikan lingkungan online yang aman dan terpercaya bagi semua bisnis.</p>
+                </div>
+                <div class="mission">
+                    <h4>Misi</h4>
+                    <ul>
+                        <li>Memberikan solusi cyber security inovatif dan adaptif.</li>
+                        <li>Mengembangkan talenta keamanan siber kelas dunia melalui pelatihan berkelanjutan.</li>
+                        <li>Membangun kemitraan yang kuat untuk melawan kejahatan siber secara kolektif.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="profile" class="profile-section">
+            <h2>Our Profile: Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h4>1. Penetration Testing (Pentest)</h4>
+                    <p>Simulasi serangan untuk mengidentifikasi kerentanan sistem Anda sebelum dieksploitasi oleh pihak luar.</p>
+                </div>
+                <div class="service-item">
+                    <h4>2. Incident Response</h4>
+                    <p>Menanggapi dan memulihkan insiden keamanan secara cepat untuk meminimalisir kerusakan bisnis.</p>
+                </div>
+                <div class="service-item">
+                    <h4>3. Security Audit & Compliance</h4>
+                    <p>Memastikan sistem Anda mematuhi standar regulasi keamanan industri (ISO 27001, PCI DSS).</p>
+                </div>
+            </div>
+            
+            <div class="headquarter-section">
+                <h2>Kantor Pusat Kami</h2>
+                <div class="location-icons">
+                    <div class="icon-item">sumatera</div>
+                    <div class="icon-item">Pati</div>
+                    <div class="icon-item">Depok</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="message" class="message-section">
+            <h2>Hubungi Kami untuk Konsultasi</h2>
+            <div class="form-container">
+                
+                <form id="contact-form">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email Bisnis</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Nomor Kontak</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="message-text">Pertanyaan Anda</label>
+                    <textarea id="message-text" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Kirim Pesan Aman</button>
+                    <p id="error-message" class="error-text"></p>
+                </form>
+
+                <div class="output-display">
+                    <h3>Ringkasan Permintaan:</h3>
+                    <p id="output-name">Nama: </p>
+                    <p id="output-email">Email: </p>
+                    <p id="output-phone">Telepon: </p>
+                    <p id="output-message">Pesan: </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
